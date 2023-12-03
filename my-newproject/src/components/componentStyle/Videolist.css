@@ -1,0 +1,40 @@
+/* VideoList.css */
+
+.video-list {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .video-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .video-list li {
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .video-list li:hover {
+    transform: scale(1.05);
+  }
+  
+  .video-list img {
+    width: 30%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-list p {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
